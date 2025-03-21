@@ -16,12 +16,24 @@ npm install multilingual-datefinder --save
 
 ## Usage
 
+### CommonJS (Node.js)
+
 ```js
-const dateFinder = require('multilingual-datefinder')
+const dateFinder = require('multilingual-datefinder');
 
-let text = 'Це трапилося 2 січня 2001 року. Я отримав листа, на якому була зазначена дата 12.12.2004. Das Meeting findet am 15. März 2023 statt.'
+let text = 'Це трапилося 2 січня 2001 року. Я отримав листа, на якому була зазначена дата 12.12.2004. Das Meeting findet am 15. März 2023 statt.';
 
-console.log(dateFinder(text))
+console.log(dateFinder(text));
+```
+
+### ES Modules (Modern JavaScript)
+
+```js
+import dateFinder from 'multilingual-datefinder';
+
+let text = 'Це трапилося 2 січня 2001 року. Я отримав листа, на якому була зазначена дата 12.12.2004. Das Meeting findet am 15. März 2023 statt.';
+
+console.log(dateFinder(text));
 ```
 
 Expected outcome:
