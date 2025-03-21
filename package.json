@@ -1,0 +1,35 @@
+{
+  "name": "multilingual-datefinder",
+  "version": "1.0.0",
+  "description": "A multilingual date extraction tool for text in English, German, Russian, and Ukrainian",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "date",
+    "datefinder",
+    "text",
+    "date extraction",
+    "NER",
+    "entity recognition",
+    "multilingual",
+    "german",
+    "english",
+    "russian",
+    "ukrainian"
+  ],
+  "author": "Yoggi Firmanda <yoggi.firmanda@gmail.com>",
+  "homepage": "https://github.com/cescgie/multilingual-datefinder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cescgie/multilingual-datefinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cescgie/multilingual-datefinder/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
