@@ -1,6 +1,6 @@
 {
   "name": "multilingual-datefinder",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A multilingual date extraction tool for text in English, German, Russian, and Ukrainian",
   "main": "index.js",
   "type": "commonjs",
