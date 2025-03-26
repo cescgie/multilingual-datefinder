@@ -162,7 +162,6 @@ const getDifferentTime = (interval, value, date = new Date()) => {
 
 
 const normalizeDate = (date, relative) => {
-  console.log(date);
   if (date.relative) {
     return new Date(getRelative(date.relative, relative))
   }
